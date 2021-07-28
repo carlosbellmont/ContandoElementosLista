@@ -4,7 +4,7 @@ fun main(){
     val listaRandom = crearListaAleatorio()
     val listaResultado = mutableListOf<Int>()
 
-    println(listaRandom)
+    println("ListaRandom = $listaRandom")
 
     for (numero in 0..9) {
         var ocurrencias = 0
@@ -16,7 +16,7 @@ fun main(){
         listaResultado.add(numero, ocurrencias)
     }
 
-    println(listaResultado)
+    println("ListaResultado = $listaResultado")
 }
 
 fun crearListaAleatorio() : List<Int>{
