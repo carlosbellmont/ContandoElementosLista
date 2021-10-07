@@ -8,7 +8,7 @@ fun main(){
 }
 
 fun crearListaAleatorio() : List<Int>{
-    return MutableList(Random.nextInt(90,110)){ Random.nextInt(0,9) }
+    return MutableList(Random.nextInt(90,110)){ Random.nextInt(0,10) }
 }
 
 fun contrarLista(listaRandom: List<Int>) : List<Int>{
